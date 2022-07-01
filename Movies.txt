@@ -1,0 +1,9 @@
+movie.db;
+CREATE TABLE movie(movie_name text,actor text,actoress text,director text,year_of_release integer NOT NULL);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('Inception','LeonardoDicaprio','Marion','ChristopherNolan',2010,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('FastAndFurious','VinDiesel','GalGadot','JustinLin',2009,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('PiratesOfCarribean','JohnnyDepp','KieraKnightly','GoreVerbinski',2003,);
+INSERT INTO movie(movie_name,actor,actoress ,director ,year_of_release) VALUES('IronMan','RobertDowney','GwenthPaltrow','JonFavreau',2008,);
+//for query
+SELECT * FROM movies;
+SELECT movie FROM movies WHERE actor='RobertDowney';
